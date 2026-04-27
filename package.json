@@ -12,7 +12,7 @@
   "dependencies": {
     "@chakra-ui/react": "^3.34.0",
     "@emotion/react": "^11.14.0",
-    "ai-ui-kit": "file:../ai-ui-kit/ai-ui-kit-0.1.0.tgz",
+    "@sushant31/ai-ui-kit": "^0.1.1",
     "framer-motion": "^12.38.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
