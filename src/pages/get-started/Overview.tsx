@@ -36,7 +36,7 @@ export default function Overview() {
             Installation
           </Heading>
           <Code as="pre" display="block" whiteSpace="pre" p={3} width="full">
-            npm install ai-ui-kit
+            npm install ai-ui-kit-sushant
           </Code>
         </Box>
 

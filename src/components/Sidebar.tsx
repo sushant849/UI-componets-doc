@@ -17,7 +17,6 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   const location = useLocation();
 
   const isComponents = location.pathname.startsWith("/components");
-  const isCharts = location.pathname.startsWith("/charts");
 
   const componentSections = [
     {
@@ -41,7 +40,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
       title: "Chat",
       items: [
         { name: "ChatActionsPage", path: "/components/chat-actions" },
-        { name: "ChatMessage", path: "/components/Chat-Message" },
+        { name: "ChatMessage", path: "/components/chat-message" },
         { name: "chat-demo", path: "/components/chat-demo" },
       ],
     },
@@ -84,23 +83,23 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
       title: "Forms",
       items: [
         { name: "Checkbox", path: "/components/checkbox" },
-        { name: "Fieldset", path: "/components/Fieldset" },
-        { name: "Field", path: "/components/Field" },
+        { name: "Fieldset", path: "/components/fieldset" },
+        { name: "Field", path: "/components/field" },
         { name: "FileUpload", path: "/components/file-upload" },
-        { name: "InputTest", path: "/components/Input" },
+        { name: "InputTest", path: "/components/input" },
         { name: "Number Input", path: "/components/number-input" },
         { name: "PasswordInputTest", path: "/components/password-input" },
-        { name: "RadioTest", path: "/components/RadioGroup" },
-        { name: "SliderTest", path: "/components/sidebar" },
+        { name: "RadioTest", path: "/components/radio-group" },
+        { name: "SliderTest", path: "/components/slider" },
         { name: "SwitchTest", path: "/components/switch" },
-        { name: "TagsInputTest", path: "/components/tagsInput" },
+        { name: "TagsInputTest", path: "/components/tags-input" },
       ],
     },
     {
       title: "Upload",
       items: [
         { name: "Dropzone", path: "/components/dropzone" },
-        { name: "FileQueue", path: "/components/FileQueue" },
+        { name: "FileQueue", path: "/components/file-queue" },
         { name: "UploadProgress", path: "/components/upload-progress" },
       ],
     },
@@ -110,8 +109,6 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
     { name: "Overview", path: "/" },
     { name: "Installation", path: "/get-started/installation" },
   ];
-
-  const chartMenu = [{ name: "Bar Chart", path: "/charts/bar" }];
 
   return (
     <Box bg="gray.400" color="white" w="250px" h="100vh" p={4} overflowY="auto">
@@ -148,16 +145,6 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
                 })}
               </VStack>
             </Box>
-          ))}
-        </VStack>
-      ) : isCharts ? (
-        <VStack align="start" gap={3}>
-          {chartMenu.map((item) => (
-            <Link asChild key={item.name}>
-              <RouterLink to={item.path} onClick={() => onNavigate?.()}>
-                {item.name}
-              </RouterLink>
-            </Link>
           ))}
         </VStack>
       ) : (

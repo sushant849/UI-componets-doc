@@ -36,13 +36,12 @@ import InputPage from "../pages/components/Input";
 import NumberInputPage from "../pages/components/NumberInput";
 import PasswordInputPage from "../pages/components/PasswordInput";
 import RadioGroup from "../pages/components/RadioGroup";
-import Sidebar from "../components/Sidebar";
+import SliderPage from "../pages/components/Slider";
 import SwitchPage from "../pages/components/Switch";
 import TagsInputPage from "../pages/components/TagsInput";
 import DropzonePage from "../pages/components/Dropzone";
 import FileQueuePage from "../pages/components/FileQueue";
 import UploadProgressPage from "../pages/components/UploadProgress";
-
 
 export const AppRoutes = (
   <Route path="/" element={<MainLayout />}>
@@ -52,8 +51,8 @@ export const AppRoutes = (
     <Route path="components/config-table" element={<ConfigTablePage />} />
     <Route path="components/model-editor" element={<ModelEditorTest />} />
     <Route path="components/prompt-editor" element={<PromptEditorPage />} />
-    <Route path="components/button-test" element={<ButtonPage />} /> 
-    <Route path="components/close-button-test" element={<CloseButtonPage />} /> 
+    <Route path="components/button-test" element={<ButtonPage />} />
+    <Route path="components/close-button-test" element={<CloseButtonPage />} />
     <Route path="components/download-trigger" element={<DownloadTriggerPage />} />
     <Route path="components/icon-button-test" element={<IconButtonPage />} />
     <Route path="components/chat-actions" element={<ChatActionsPage />} />
@@ -76,17 +75,17 @@ export const AppRoutes = (
     <Route path="components/collapsible-test" element={<Collapsible />} />
     <Route path="components/checkbox" element={<CheckboxPage />} />
     <Route path="components/fieldset" element={<FieldsetPage />} />
-    <Route path="components/field" element={<FieldPage />} /> 
+    <Route path="components/field" element={<FieldPage />} />
     <Route path="components/file-upload" element={<FileUploadPage />} />
     <Route path="components/input" element={<InputPage />} />
     <Route path="components/number-input" element={<NumberInputPage />} />
     <Route path="components/password-input" element={<PasswordInputPage />} />
-    <Route path="components/RadioGroup" element={<RadioGroup />} />
-    <Route path="components/sidebar" element={<Sidebar />} />
+    <Route path="components/radio-group" element={<RadioGroup />} />
+    <Route path="components/slider" element={<SliderPage />} />
     <Route path="components/switch" element={<SwitchPage />} />
-    <Route path="components/tagsInput" element={<TagsInputPage />} />
+    <Route path="components/tags-input" element={<TagsInputPage />} />
     <Route path="components/dropzone" element={<DropzonePage />} />
-    <Route path="components/FileQueue" element={<FileQueuePage />} />
+    <Route path="components/file-queue" element={<FileQueuePage />} />
     <Route path="components/upload-progress" element={<UploadProgressPage />} />
   </Route>
 );

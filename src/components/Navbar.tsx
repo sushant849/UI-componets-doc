@@ -13,8 +13,7 @@ import { FiMenu } from "react-icons/fi";
 
 const Links = [
   { name: "Get Started", path: "/" },
-  { name: "Components", path: "/components/button" },
-  { name: "Charts", path: "/charts/bar" },
+  { name: "Components", path: "/components/button-test" },
 ];
 
 interface NavLinkProps {
