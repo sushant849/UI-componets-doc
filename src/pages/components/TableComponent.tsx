@@ -1,6 +1,6 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { TableComponent } from "ai-ui-kit";
+import { TableComponent } from "@sushant31/ai-ui-kit";
 
 type User = {
   id: number;
@@ -17,7 +17,7 @@ const fullData: User[] = Array.from({ length: 25 }).map((_, i) => ({
 }));
 
 export default function TableComponentPage() {
-  const codeString = `import { TableComponent } from "ai-ui-kit";
+  const codeString = `import { TableComponent } from "@sushant31/ai-ui-kit";
 
 <TableComponent
   data={data}

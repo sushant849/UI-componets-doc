@@ -1,13 +1,13 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Checkbox } from "ai-ui-kit";
+import { Checkbox } from "@sushant31/ai-ui-kit";
 import { FiCheckCircle } from "react-icons/fi";
 
 export default function CheckboxPage() {
   const [agree, setAgree] = useState(false);
 
-  const codeString = `import { Checkbox } from "ai-ui-kit";
+  const codeString = `import { Checkbox } from "@sushant31/ai-ui-kit";
 import { useState } from "react";
 import { FiCheckCircle } from "react-icons/fi";
 

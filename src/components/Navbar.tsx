@@ -6,10 +6,14 @@ import {
   IconButton,
   useDisclosure,
   Stack,
+  Spacer,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import type { JSX, ReactNode } from "react";
 import { FiMenu } from "react-icons/fi";
+import { ColorModeButton } from "../hooks/useColorMode";
+
+// ✅ import your toggle
 
 const Links = [
   { name: "Get Started", path: "/" },
@@ -40,7 +44,8 @@ export default function Navbar(): JSX.Element {
 
   return (
     <Box bg="gray.100" px={4}>
-      <Flex h={16} alignItems="center" justifyContent="space-between">
+      <Flex h={16} alignItems="center">
+        {/* Left side */}
         <IconButton
           size="md"
           aria-label="Open Menu"
@@ -51,28 +56,28 @@ export default function Navbar(): JSX.Element {
           <FiMenu />
         </IconButton>
 
-        <HStack gap={8}>
-          <Box
-            fontWeight="bold"
-            cursor="pointer"
-            onClick={() => navigate("/")}
-          >
+        <HStack gap={8} ml={4}>
+          <Box fontWeight="bold" cursor="pointer" onClick={() => navigate("/")}>
             UI-Componts-Doc
           </Box>
 
           <HStack display={{ base: "none", md: "flex" }} gap={2}>
             {Links.map((link) => (
-              <NavLink
-                key={link.name}
-                onClick={() => navigate(link.path)}
-              >
+              <NavLink key={link.name} onClick={() => navigate(link.path)}>
                 {link.name}
               </NavLink>
             ))}
           </HStack>
         </HStack>
+
+        {/* Push right */}
+        <Spacer />
+
+        {/* ✅ Dark Mode Toggle */}
+        <ColorModeButton />
       </Flex>
 
+      {/* Mobile menu */}
       {open ? (
         <Stack pb={4} gap={0} display={{ md: "none" }}>
           {Links.map((link) => (

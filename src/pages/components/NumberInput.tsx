@@ -1,13 +1,12 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Input } from "ai-ui-kit";
+import { Input } from "@sushant31/ai-ui-kit";
 
 export default function NumberInputPage() {
   const [number, setNumber] = useState<number>(42);
 
   const codeString = `import { useState } from "react";
-import { Input } from "ai-ui-kit";
 
 const [number, setNumber] = useState(42);
 

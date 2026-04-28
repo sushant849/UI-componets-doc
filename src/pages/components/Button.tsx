@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Button } from "ai-ui-kit";
+import { Button } from "@sushant31/ai-ui-kit";
 import { LuPlus, LuArrowRight } from "react-icons/lu";
 
 export default function ButtonPage() {
-  const codeString = `import { Button } from "ai-ui-kit";
+  const codeString = `import { Button } from "@sushant31/ai-ui-kit";
 import { LuPlus, LuArrowRight } from "react-icons/lu";
 
 <Button

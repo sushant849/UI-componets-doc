@@ -1,6 +1,6 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { PromptEditor } from "ai-ui-kit";
+import { PromptEditor } from "@sushant31/ai-ui-kit";
 
 export default function PromptEditorPage() {
   const handleSavePrompt = (config: any) =>
@@ -9,7 +9,7 @@ export default function PromptEditorPage() {
   const handleCancelPrompt = () =>
     console.log("Cancelled prompt editor");
 
-  const codeString = `import { PromptEditor } from "ai-ui-kit";
+  const codeString = `import { PromptEditor } from "@sushant31/ai-ui-kit";
 
 const handleSavePrompt = (config) => {
   console.log("Saved prompt:", config);

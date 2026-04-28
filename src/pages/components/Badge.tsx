@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack, HStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Badge } from "ai-ui-kit";
+import { Badge } from "@sushant31/ai-ui-kit";
 
 export default function BadgePage() {
-  const codeString = `import { Badge } from "ai-ui-kit";
+  const codeString = `import { Badge } from "@sushant31/ai-ui-kit";
 
 <Badge
   sizes={{

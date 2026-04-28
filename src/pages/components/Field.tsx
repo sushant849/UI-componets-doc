@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Field } from "ai-ui-kit";
+import { Field } from "@sushant31/ai-ui-kit";
 import { Input } from "@chakra-ui/react";
 
 export default function FieldPage() {
-  const codeString = `import { Field } from "ai-ui-kit";
+  const codeString = `import { Field } from "@sushant31/ai-ui-kit";
 import { Input } from "@chakra-ui/react";
 
 <Field

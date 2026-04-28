@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { DownloadTrigger } from "ai-ui-kit";
+import { DownloadTrigger } from "@sushant31/ai-ui-kit";
 
 export default function DownloadTriggerPage() {
-  const codeString = `import { DownloadTrigger } from "ai-ui-kit";
+  const codeString = `import { DownloadTrigger } from "@sushant31/ai-ui-kit";
 
 <DownloadTrigger
   fileName="test.txt"

@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack, HStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Avatar } from "ai-ui-kit";
+import { Avatar } from "@sushant31/ai-ui-kit";
 
 export default function AvatarPage() {
-  const codeString = `import { Avatar } from "ai-ui-kit";
+  const codeString = `import { Avatar } from "@sushant31/ai-ui-kit";
 
 <Avatar
   name="Punit"

@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { ChatHistory, ChatInput, ChatShell } from "ai-ui-kit";
+import { ChatHistory, ChatInput, ChatShell } from "@sushant31/ai-ui-kit";
 
 type MessageType = {
   id: string;
@@ -30,7 +30,7 @@ export default function ChatDemoPage() {
   };
 
   const codeString = `import { useState } from "react";
-import { ChatHistory, ChatInput, ChatShell } from "ai-ui-kit";
+import { ChatHistory, ChatInput, ChatShell } from "@sushant31/ai-ui-kit";
 
 const [messages, setMessages] = useState([
   { id: "1", role: "assistant", content: "Welcome! Start typing below..." },

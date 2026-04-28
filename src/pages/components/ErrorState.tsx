@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { ErrorState } from "ai-ui-kit";
+import { ErrorState } from "@sushant31/ai-ui-kit";
 import { FiAlertCircle } from "react-icons/fi";
 
 export default function ErrorStatePage() {
-  const codeString = `import { ErrorState } from "ai-ui-kit";
+  const codeString = `import { ErrorState } from "@sushant31/ai-ui-kit";
 import { FiAlertCircle } from "react-icons/fi";
 
 <ErrorState

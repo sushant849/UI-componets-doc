@@ -1,6 +1,6 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Carousel } from "ai-ui-kit";
+import { Carousel } from "@sushant31/ai-ui-kit";
 
 export default function CarouselPage() {
   const items = [
@@ -9,7 +9,7 @@ export default function CarouselPage() {
     { id: 3, text: "Slide 3" },
   ];
 
-  const codeString = `import { Carousel } from "ai-ui-kit";
+  const codeString = `import { Carousel } from "@sushant31/ai-ui-kit";
 
 const items = [
   { id: 1, text: "Slide 1" },

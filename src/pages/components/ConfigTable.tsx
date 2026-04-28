@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
 import PropsTable from "../../components/docs/PropsTable";
-import { ConfigTable } from "ai-ui-kit";
+import { ConfigTable } from "@sushant31/ai-ui-kit";
 
 export default function ConfigTablePage() {
   const columns = [
@@ -14,7 +14,7 @@ export default function ConfigTablePage() {
     { name: "AI Bot", role: "Assistant" },
   ];
 
-  const codeString = `import { ConfigTable } from "ai-ui-kit";
+  const codeString = `import { ConfigTable } from "@sushant31/ai-ui-kit";
 
       const columns = [
         { key: "name", label: "Name" },

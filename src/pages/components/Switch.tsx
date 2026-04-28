@@ -1,13 +1,13 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Field, Switch } from "ai-ui-kit";
+import { Field, Switch } from "@sushant31/ai-ui-kit";
 
 export default function SwitchPage() {
   const [enabled, setEnabled] = useState(false);
 
   const codeString = `import { useState } from "react";
-import { Field, Switch } from "ai-ui-kit";
+import { Field, Switch } from "@sushant31/ai-ui-kit";
 
 const [enabled, setEnabled] = useState(false);
 

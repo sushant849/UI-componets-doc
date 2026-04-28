@@ -54,7 +54,7 @@ export default function Overview() {
             Example
           </Heading>
           <Code as="pre" display="block" whiteSpace="pre" p={3} width="full" fontSize="sm">
-            {`import { ChatHistory } from "ai-ui-kit";
+            {`import { ChatHistory } from "@sushant31/ai-ui-kit";
 
 function App() {
   return (

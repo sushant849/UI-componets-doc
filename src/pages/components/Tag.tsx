@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack, HStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Tag } from "ai-ui-kit";
+import { Tag } from "@sushant31/ai-ui-kit";
 import { LuUser, LuCheck } from "react-icons/lu";
 
 export default function TagPage() {
-  const codeString = `import { Tag } from "ai-ui-kit";
+  const codeString = `import { Tag } from "@sushant31/ai-ui-kit";
 import { LuUser, LuCheck } from "react-icons/lu";
 
 <Tag label="Default" />

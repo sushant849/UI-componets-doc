@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { LayoutShell } from "ai-ui-kit";
+import { LayoutShell } from "@sushant31/ai-ui-kit";
 
 export default function LayoutShellPage() {
-  const codeString = `import { LayoutShell } from "ai-ui-kit";
+  const codeString = `import { LayoutShell } from "@sushant31/ai-ui-kit";
 
 <LayoutShell
   header={<div>Header Area</div>}
