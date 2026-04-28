@@ -1,13 +1,13 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Field, TagsInput } from "ai-ui-kit";
+import { Field, TagsInput } from "@sushant31/ai-ui-kit";
 
 export default function TagsInputPage() {
   const [tags, setTags] = useState<string[]>(["react"]);
 
   const codeString = `import { useState } from "react";
-import { Field, TagsInput } from "ai-ui-kit";
+import { Field, TagsInput } from "@sushant31/ai-ui-kit";
 
 const [tags, setTags] = useState(["react"]);
 

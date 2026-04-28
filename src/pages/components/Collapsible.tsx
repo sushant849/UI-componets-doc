@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Collapsible } from "ai-ui-kit";
+import { Collapsible } from "@sushant31/ai-ui-kit";
 
 export default function CollapsiblePage() {
-  const codeString = `import { Collapsible } from "ai-ui-kit";
+  const codeString = `import { Collapsible } from "@sushant31/ai-ui-kit";
 
 <Collapsible
   title="Click me"

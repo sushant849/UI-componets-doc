@@ -99,7 +99,7 @@ createRoot(document.getElementById("root")!).render(
             width="full"
             fontSize="sm"
           >
-            {`import { Button } from "ai-ui-kit";
+            {`import { Button } from "@sushant31/ai-ui-kit";
 
 export function Demo() {
   return <Button variant="solid">Click me</Button>;

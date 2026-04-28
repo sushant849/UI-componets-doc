@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Field, FileUpload } from "ai-ui-kit";
+import { Field, FileUpload } from "@sushant31/ai-ui-kit";
 
 export default function FileUploadPage() {
-  const codeString = `import { Field, FileUpload } from "ai-ui-kit";
+  const codeString = `import { Field, FileUpload } from "@sushant31/ai-ui-kit";
 
 <Field
   label="Upload Resume"

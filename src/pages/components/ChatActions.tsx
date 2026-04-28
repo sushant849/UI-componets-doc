@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { ChatActions } from "ai-ui-kit";
+import { ChatActions } from "@sushant31/ai-ui-kit";
 
 export default function ChatActionsPage() {
-  const codeString = `import { ChatActions } from "ai-ui-kit";
+  const codeString = `import { ChatActions } from "@sushant31/ai-ui-kit";
 
 <ChatActions
   onCopy={() => console.log("Copy clicked")}

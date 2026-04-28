@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { FileQueue } from "ai-ui-kit";
-import type { FileQueueItem } from "ai-ui-kit";
+import { FileQueue } from "@sushant31/ai-ui-kit";
+import type { FileQueueItem } from "@sushant31/ai-ui-kit";
 
 export default function FileQueuePage() {
   const files: FileQueueItem[] = [
@@ -28,7 +28,7 @@ export default function FileQueuePage() {
     },
   ];
 
-  const codeString = `import { FileQueue } from "ai-ui-kit";
+  const codeString = `import { FileQueue } from "@sushant31/ai-ui-kit";
 
 <FileQueue
   files={[

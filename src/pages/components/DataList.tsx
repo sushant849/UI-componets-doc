@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { DataList } from "ai-ui-kit";
+import { DataList } from "@sushant31/ai-ui-kit";
 
 export default function DataListPage() {
-  const codeString = `import { DataList } from "ai-ui-kit";
+  const codeString = `import { DataList } from "@sushant31/ai-ui-kit";
 
 <DataList
   items={[

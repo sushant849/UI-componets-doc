@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Fieldset, Checkbox } from "ai-ui-kit";
+import { Fieldset, Checkbox } from "@sushant31/ai-ui-kit";
 
 export default function FieldsetPage() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -17,7 +17,7 @@ export default function FieldsetPage() {
   const hasError = selected.length === 0;
 
   const codeString = `import { useState } from "react";
-import { Fieldset, Checkbox } from "ai-ui-kit";
+import { Fieldset, Checkbox } from "@sushant31/ai-ui-kit";
 
 const [selected, setSelected] = useState([]);
 

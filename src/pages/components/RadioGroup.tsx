@@ -1,13 +1,13 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Field, RadioGroup } from "ai-ui-kit";
+import { Field, RadioGroup } from "@sushant31/ai-ui-kit";
 
 export default function RadioGroupPage() {
   const [selected, setSelected] = useState<string | null>("option1");
 
   const codeString = `import { useState } from "react";
-import { Field, RadioGroup } from "ai-ui-kit";
+import { Field, RadioGroup } from "@sushant31/ai-ui-kit";
 
 const [selected, setSelected] = useState("option1");
 

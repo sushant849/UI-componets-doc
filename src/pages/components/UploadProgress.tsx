@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { UploadProgress } from "ai-ui-kit";
+import { UploadProgress } from "@sushant31/ai-ui-kit";
 
 export default function UploadProgressPage() {
-  const codeString = `import { UploadProgress } from "ai-ui-kit";
+  const codeString = `import { UploadProgress } from "@sushant31/ai-ui-kit";
 
 <UploadProgress
   progress={60}

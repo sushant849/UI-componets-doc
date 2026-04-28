@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { DatePicker } from "ai-ui-kit";
+import { DatePicker } from "@sushant31/ai-ui-kit";
 
 export default function DatePickerPage() {
-  const codeString = `import { DatePicker } from "ai-ui-kit";
+  const codeString = `import { DatePicker } from "@sushant31/ai-ui-kit";
 
 <DatePicker
   label="Select date"

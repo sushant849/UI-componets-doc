@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Loader } from "ai-ui-kit";
+import { Loader } from "@sushant31/ai-ui-kit";
 
 export default function LoaderPage() {
-  const codeString = `import { Loader } from "ai-ui-kit";
+  const codeString = `import { Loader } from "@sushant31/ai-ui-kit";
 
 <Loader />;`;
 

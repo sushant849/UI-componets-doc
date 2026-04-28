@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Accordion } from "ai-ui-kit";
+import { Accordion } from "@sushant31/ai-ui-kit";
 
 export default function AccordionPage() {
-  const codeString = `import { Accordion } from "ai-ui-kit";
+  const codeString = `import { Accordion } from "@sushant31/ai-ui-kit";
 
 <Accordion
   items={[

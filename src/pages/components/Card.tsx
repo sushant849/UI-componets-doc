@@ -1,6 +1,6 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Card } from "ai-ui-kit";
+import { Card } from "@sushant31/ai-ui-kit";
 
 export default function CardPage() {
   const codeString = `import { Card } from "ai-ui-kit";

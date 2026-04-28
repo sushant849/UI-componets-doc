@@ -1,13 +1,13 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Field, Slider } from "ai-ui-kit";
+import { Field, Slider } from "@sushant31/ai-ui-kit";
 
 export default function SliderPage() {
   const [values, setValues] = useState<number[]>([50]);
 
   const codeString = `import { useState } from "react";
-import { Field, Slider } from "ai-ui-kit";
+import { Field, Slider } from "@sushant31/ai-ui-kit";
 
 const [values, setValues] = useState([50]);
 

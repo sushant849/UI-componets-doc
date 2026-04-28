@@ -1,6 +1,6 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { ModelEditor } from "ai-ui-kit";
+import { ModelEditor } from "@sushant31/ai-ui-kit";
 
 export default function ModelEditorPage() {
   const handleSaveModel = (config: any) =>
@@ -9,7 +9,7 @@ export default function ModelEditorPage() {
   const handleCancelModel = () =>
     console.log("Cancelled model editor");
 
-  const codeString = `import { ModelEditor } from "ai-ui-kit";
+  const codeString = `import { ModelEditor } from "@sushant31/ai-ui-kit";
 
 const handleSaveModel = (config) => {
   console.log("Saved model config:", config);

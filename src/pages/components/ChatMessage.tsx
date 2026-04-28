@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { ChatMessage } from "ai-ui-kit";
+import { ChatMessage } from "@sushant31/ai-ui-kit";
 
 export default function ChatMessagePage() {
-  const codeString = `import { ChatMessage } from "ai-ui-kit";
+  const codeString = `import { ChatMessage } from "@sushant31/ai-ui-kit";
 
 const message = {
   id: "1",

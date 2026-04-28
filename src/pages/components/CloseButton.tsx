@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { CloseButton } from "ai-ui-kit";
+import { CloseButton } from "@sushant31/ai-ui-kit";
 import { LuX } from "react-icons/lu";
 
 export default function CloseButtonPage() {
-  const codeString = `import { CloseButton } from "ai-ui-kit";
+  const codeString = `import { CloseButton } from "@sushant31/ai-ui-kit";
 import { LuX } from "react-icons/lu";
 
 <CloseButton

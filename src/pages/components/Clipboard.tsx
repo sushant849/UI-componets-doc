@@ -1,9 +1,9 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Clipboard } from "ai-ui-kit";
+import { Clipboard } from "@sushant31/ai-ui-kit";
 
 export default function ClipboardPage() {
-  const codeString = `import { Clipboard } from "ai-ui-kit";
+  const codeString = `import { Clipboard } from "@sushant31/ai-ui-kit";
 
 // Button variant
 <Clipboard

@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { Dropzone } from "ai-ui-kit";
-import type { DropzoneProps } from "ai-ui-kit";
+import { Dropzone } from "@sushant31/ai-ui-kit";
+import type { DropzoneProps } from "@sushant31/ai-ui-kit";
 
 export default function DropzonePage() {
   const createDropzoneProps = (): DropzoneProps => ({
@@ -9,7 +9,7 @@ export default function DropzonePage() {
     multiple: false,
   });
 
-  const codeString = `import { Dropzone } from "ai-ui-kit";
+  const codeString = `import { Dropzone } from "@sushant31/ai-ui-kit";
 
 <Dropzone
   onFilesSelected={(files) => console.log(files)}

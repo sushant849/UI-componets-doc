@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import ComponentPreview from "../../components/docs/ComponentPreview";
-import { EmptyState } from "ai-ui-kit";
+import { EmptyState } from "@sushant31/ai-ui-kit";
 import { FiInbox } from "react-icons/fi";
 
 export default function EmptyStatePage() {
-  const codeString = `import { EmptyState } from "ai-ui-kit";
+  const codeString = `import { EmptyState } from "@sushant31/ai-ui-kit";
 import { FiInbox } from "react-icons/fi";
 
 <EmptyState
